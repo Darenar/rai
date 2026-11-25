@@ -5,7 +5,7 @@
   },
   "plugins": [
     {
-      "name": "rai",
+      "name": "rai-assistant",
       "source": "./plugins/rai",
       "description": "Set up, reproduce, and share research projects."
     }
