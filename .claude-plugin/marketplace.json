@@ -1,0 +1,14 @@
+{
+  "name": "rai-local",
+  "owner": {
+    "name": "Vladislav Pyzhov"
+  },
+  "plugins": [
+    {
+      "name": "rai",
+      "source": "./plugins/rai",
+      "description": "Set up, reproduce, and share research projects."
+    }
+  ],
+  "description": "Install the shared Rai research skills."
+}

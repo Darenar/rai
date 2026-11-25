@@ -1,0 +1,9 @@
+{
+  "name": "rai",
+  "displayName": "Rai",
+  "version": "0.1.2",
+  "description": "Set up research projects, audit inputs, sync Git and Overleaf, and manage references in Zotero.",
+  "author": {"name": "Vladislav Pyzhov"},
+  "license": "MIT",
+  "icon": "./assets/icon.png"
+}

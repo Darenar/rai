@@ -1,0 +1,29 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "rai",
+  "version": "0.1.2",
+  "description": "Set up research projects, audit inputs, sync Git and Overleaf, and manage references in Zotero.",
+  "author": {"name": "Vladislav Pyzhov"},
+  "license": "MIT",
+  "extensions": {
+    "com.openai": {
+      "requires_local_executor": true,
+      "interface": {
+        "displayName": "Rai",
+        "shortDescription": "Set up and sync research",
+        "longDescription": "Rai uses the host's tools to review a local research project, find missing inputs, and propose changes. With access to the relevant service, it can verify shared data, review Git and Overleaf synchronization, and work with Zotero.",
+        "developerName": "Vladislav Pyzhov",
+        "category": "Scientific Research",
+        "capabilities": ["Read", "Write"],
+        "defaultPrompt": [
+          "Use Rai to review this folder and tell me how to start or resume work.",
+          "Check whether my inputs will work from a fresh checkout.",
+          "Review these PDFs for import to Zotero and check attachment sync."
+        ],
+        "brandColor": "#315C4C",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
+}
